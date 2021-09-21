@@ -6,7 +6,8 @@
 </head>
 <body>
     
+    <?php include("chat-php-js.php"); ?>
 
-	<script type="text/javascript" src="chat-php-js.php"></script>
+	<script type="text/javascript" src="chat-php-js.js"></script>
 </body>
 </html>

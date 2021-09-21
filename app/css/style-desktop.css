@@ -1,24 +1,75 @@
 .cpj-nav{ 
 
+	width: 350px;
+	font-family: sans-serif;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	box-shadow: rgba(99, 99, 99, 0.8) 0px 0px 3px 0px;
+
 }
 
 .cpj-nav-painel{ 
+
+	background: #dedede;
 
 }
 
 .cpj-nav-painel-title{ 
 
+	background: #2eb82e;
+	color: #fff;
+	padding: 15px 10px;
+
 }
 
 .cpj-nav-painel-context{ 
-
+	padding: 20px 10px;
+	background: #dedede;
 }
 
 .cpj-nav-painel-mensage1{ 
 
+	background: #f2f2f2;
+	width: 80%;
+	margin-bottom: 14px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 3px;
+
+	
+	color: #444;
+	-webkit-border-radius: 10px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 10px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+	line-height: 19px;
+
 }
 
 .cpj-nav-painel-mensage2{ 
+
+	width: 80%;
+	margin-bottom: 14px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 3px;
+	background: #c1f0c1;
+	transform: translateX(-100%);
+	left: 100%;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 10px;
+	-moz-border-radius-topright: 0;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+	line-height: 19px;
+
 
 }
 
@@ -28,12 +79,48 @@
 
 .cpj-nav-painel-group{ 
 
+	display: grid;
+	grid-template-columns: auto 100px;
+	padding: 10px;
+
 }
 
 .cpj-nav-painel-input{ 
+
+	padding: 10px;
+	outline: none;
+	border: none;
 
 }
 
 .cpj-nav-painel-button{ 
 
+	padding: 10px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background: #2eb82e;
+	font-weight: bold;
+	color: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
 }
+
+.cpj-nav-painel-button:hover{
+
+	background: #29a329;
+
+}
+
+.cpj-nav-painel-button:active{
+
+	background: #2eb82e;
+
+}
+
+
